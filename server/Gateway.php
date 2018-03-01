@@ -3,17 +3,22 @@
 echo 'Loading from vendor...';
 require_once(__DIR__ . '/Loader.php');
 
-$loop = React\EventLoop\Factory::create();
-$socket = new React\Socket\Server('127.0.0.1:8080', $loop);
-
-$socket->on('connection', function (ConnectionInterface $conn) {
-    $conn->write("Hello " . $conn->getRemoteAddress() . "!\n");
-    $conn->write("Welcome to this amazing server!\n");
-    $conn->write("Here's a tip: don't say anything.\n");
-
-    $conn->on('data', function ($data) use ($conn) {
-        $conn->close();
-    });
+use Devristo\Phpws\Server\WebSocketServer;
+$loop = \React\EventLoop\Factory::create();
+// Create a logger which writes everything to the STDOUT
+$logger = new \Zend\Log\Logger();
+$writer = new Zend\Log\Writer\Stream("php://output");
+$logger->addWriter($writer);
+// Create a WebSocket server using SSL
+$server = new WebSocketServer("tcp://0.0.0.0:8080", $loop, $logger);
+$loop->addPeriodicTimer(0.5, function() use($server, $logger){
+    $time = new DateTime();
+    $string = $time->format("Y-m-d H:i:s");
+    $logger->notice("Broadcasting time to all clients: $string");
+    foreach($server->getConnections() as $client)
+        $client->sendString($string);
 });
-
+// Bind the server
+$server->bind();
+// Start the event loop
 $loop->run();
