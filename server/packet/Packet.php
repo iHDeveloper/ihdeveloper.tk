@@ -7,15 +7,15 @@ class Packet {
     private $data = array();
 
     public function write($key, $value){
-        $data[$key] = $value;
+        $this->data[$key] = $value;
     }
 
     public function read($key){
-        return $data[$key];
+        return $this-data[$key];
     }
 
     public function encode(){
-        return json_encode($data);
+        return json_encode($this-data);
     }
 
 }
