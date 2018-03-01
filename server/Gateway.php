@@ -14,13 +14,6 @@ $logger->addWriter($writer);
 // Create a WebSocket server using SSL
 $server = new WebSocketServer("tcp://0.0.0.0:7070", $loop, $logger);
 $router = new \Devristo\Phpws\Server\UriHandler\ClientRouter($server, $logger);
-$loop->addPeriodicTimer(0.5, function() use($server, $logger){
-    $time = new DateTime();
-    $string = $time->format("Y-m-d H:i:s");
-    $logger->notice("Broadcasting time to all clients: $string");
-    foreach($server->getConnections() as $client)
-        $client->sendString($string);
-});
 $router->addRoute('#^(.*)$#i', new Handler($logger));
 // Bind the server
 $server->bind();

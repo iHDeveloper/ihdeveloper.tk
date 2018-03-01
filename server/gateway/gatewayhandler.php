@@ -3,6 +3,7 @@
 namespace Gateway;
 
 use Devristo\Phpws\Server\UriHandler\WebSocketUriHandler;
+use Devristo\Phpws\Protocol\WebSocketTransportInterface;
 use Packet\Out\PacketLogin;
 
 class GateWayHandler extends WebSocketUriHandler{
