@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "10965c6ca784621c54d3e6ec1f60960a",
     "content-hash": "e9afc3d37c5ce5aba3967907f6569866",
     "packages": [
         {
@@ -36,7 +35,7 @@
             ],
             "description": "Promoting the interoperability of container objects (DIC, SL, etc.)",
             "homepage": "https://github.com/container-interop/container-interop",
-            "time": "2017-02-14 19:40:03"
+            "time": "2017-02-14T19:40:03+00:00"
         },
         {
             "name": "devristo/phpws",
@@ -76,7 +75,7 @@
                 "source": "https://github.com/Devristo/phpws/tree/master",
                 "issues": "https://github.com/Devristo/phpws/issues"
             },
-            "time": "2016-12-21 07:28:56"
+            "time": "2016-12-21T07:28:56+00:00"
         },
         {
             "name": "evenement/evenement",
@@ -124,7 +123,7 @@
                 "event-dispatcher",
                 "event-emitter"
             ],
-            "time": "2017-07-17 17:39:19"
+            "time": "2017-07-17T17:39:19+00:00"
         },
         {
             "name": "psr/container",
@@ -173,7 +172,7 @@
                 "container-interop",
                 "psr"
             ],
-            "time": "2017-02-14 16:28:37"
+            "time": "2017-02-14T16:28:37+00:00"
         },
         {
             "name": "psr/log",
@@ -220,7 +219,7 @@
                 "psr",
                 "psr-3"
             ],
-            "time": "2016-10-10 12:19:37"
+            "time": "2016-10-10T12:19:37+00:00"
         },
         {
             "name": "react/cache",
@@ -260,7 +259,7 @@
                 "promise",
                 "reactphp"
             ],
-            "time": "2017-12-20 16:47:13"
+            "time": "2017-12-20T16:47:13+00:00"
         },
         {
             "name": "react/dns",
@@ -305,7 +304,7 @@
                 "dns-resolver",
                 "reactphp"
             ],
-            "time": "2018-02-27 12:51:22"
+            "time": "2018-02-27T12:51:22+00:00"
         },
         {
             "name": "react/event-loop",
@@ -347,7 +346,7 @@
                 "asynchronous",
                 "event-loop"
             ],
-            "time": "2017-04-27 10:56:23"
+            "time": "2017-04-27T10:56:23+00:00"
         },
         {
             "name": "react/promise",
@@ -393,7 +392,7 @@
                 "promise",
                 "promises"
             ],
-            "time": "2017-03-25 12:08:31"
+            "time": "2017-03-25T12:08:31+00:00"
         },
         {
             "name": "react/promise-timer",
@@ -446,7 +445,7 @@
                 "timeout",
                 "timer"
             ],
-            "time": "2017-12-22 15:41:41"
+            "time": "2017-12-22T15:41:41+00:00"
         },
         {
             "name": "react/socket",
@@ -488,7 +487,7 @@
             "keywords": [
                 "Socket"
             ],
-            "time": "2017-01-26 09:23:38"
+            "time": "2017-01-26T09:23:38+00:00"
         },
         {
             "name": "react/socket-client",
@@ -530,7 +529,7 @@
             "keywords": [
                 "Socket"
             ],
-            "time": "2016-12-06 10:54:49"
+            "time": "2016-12-06T10:54:49+00:00"
         },
         {
             "name": "react/stream",
@@ -574,7 +573,7 @@
                 "pipe",
                 "stream"
             ],
-            "time": "2017-01-25 14:44:14"
+            "time": "2017-01-25T14:44:14+00:00"
         },
         {
             "name": "zendframework/zend-escaper",
@@ -618,7 +617,7 @@
                 "escaper",
                 "zf2"
             ],
-            "time": "2016-06-30 19:48:38"
+            "time": "2016-06-30T19:48:38+00:00"
         },
         {
             "name": "zendframework/zend-http",
@@ -671,7 +670,7 @@
                 "zend",
                 "zf"
             ],
-            "time": "2017-10-13 12:06:24"
+            "time": "2017-10-13T12:06:24+00:00"
         },
         {
             "name": "zendframework/zend-loader",
@@ -715,7 +714,7 @@
                 "loader",
                 "zf2"
             ],
-            "time": "2015-06-03 14:05:47"
+            "time": "2015-06-03T14:05:47+00:00"
         },
         {
             "name": "zendframework/zend-log",
@@ -786,7 +785,7 @@
                 "logging",
                 "zf2"
             ],
-            "time": "2017-05-17 16:03:26"
+            "time": "2017-05-17T16:03:26+00:00"
         },
         {
             "name": "zendframework/zend-servicemanager",
@@ -854,7 +853,7 @@
                 "servicemanager",
                 "zf"
             ],
-            "time": "2018-01-29 16:48:37"
+            "time": "2018-01-29T16:48:37+00:00"
         },
         {
             "name": "zendframework/zend-stdlib",
@@ -899,7 +898,7 @@
                 "stdlib",
                 "zf2"
             ],
-            "time": "2016-09-13 14:38:50"
+            "time": "2016-09-13T14:38:50+00:00"
         },
         {
             "name": "zendframework/zend-uri",
@@ -946,7 +945,7 @@
                 "uri",
                 "zf2"
             ],
-            "time": "2016-02-17 22:38:51"
+            "time": "2016-02-17T22:38:51+00:00"
         },
         {
             "name": "zendframework/zend-validator",
@@ -1017,7 +1016,7 @@
                 "validator",
                 "zf2"
             ],
-            "time": "2018-02-01 17:05:33"
+            "time": "2018-02-01T17:05:33+00:00"
         }
     ],
     "packages-dev": [],
