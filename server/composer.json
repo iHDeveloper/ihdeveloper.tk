@@ -1,5 +1,11 @@
 {
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Devristo/phpws"
+        }
+    ],
     "require": {
-        "react/socket": "^0.8.10"
+        "devristo/phpws": "dev-master"
     }
 }
