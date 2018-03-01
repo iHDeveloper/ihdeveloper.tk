@@ -1,7 +1,7 @@
 <?php
 
-function req($file){
+function req_gateway($file){
     require_once(__DIR__.'/'.$file);
 }
 
-req("gatewayhandler.php");
+req_gateway("gatewayhandler.php");
