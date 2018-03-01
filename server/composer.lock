@@ -4,7 +4,6 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#composer-lock-the-lock-file",
         "This file is @generated automatically"
     ],
-    "hash": "107b8f7f5dc5e9323ec0d866b23ca4da",
     "content-hash": "9e0159bcc1ab01c314cf761f699d7a47",
     "packages": [
         {
@@ -48,7 +47,7 @@
                 "event-dispatcher",
                 "event-emitter"
             ],
-            "time": "2017-07-23 21:35:13"
+            "time": "2017-07-23T21:35:13+00:00"
         },
         {
             "name": "react/cache",
@@ -88,7 +87,7 @@
                 "promise",
                 "reactphp"
             ],
-            "time": "2017-12-20 16:47:13"
+            "time": "2017-12-20T16:47:13+00:00"
         },
         {
             "name": "react/dns",
@@ -133,7 +132,7 @@
                 "dns-resolver",
                 "reactphp"
             ],
-            "time": "2018-02-27 12:51:22"
+            "time": "2018-02-27T12:51:22+00:00"
         },
         {
             "name": "react/event-loop",
@@ -175,7 +174,7 @@
                 "asynchronous",
                 "event-loop"
             ],
-            "time": "2017-04-27 10:56:23"
+            "time": "2017-04-27T10:56:23+00:00"
         },
         {
             "name": "react/promise",
@@ -221,7 +220,7 @@
                 "promise",
                 "promises"
             ],
-            "time": "2017-03-25 12:08:31"
+            "time": "2017-03-25T12:08:31+00:00"
         },
         {
             "name": "react/promise-timer",
@@ -274,7 +273,7 @@
                 "timeout",
                 "timer"
             ],
-            "time": "2017-12-22 15:41:41"
+            "time": "2017-12-22T15:41:41+00:00"
         },
         {
             "name": "react/socket",
@@ -321,7 +320,7 @@
                 "reactphp",
                 "stream"
             ],
-            "time": "2018-02-28 09:32:38"
+            "time": "2018-02-28T09:32:38+00:00"
         },
         {
             "name": "react/stream",
@@ -367,7 +366,7 @@
                 "stream",
                 "writable"
             ],
-            "time": "2018-01-19 15:04:38"
+            "time": "2018-01-19T15:04:38+00:00"
         }
     ],
     "packages-dev": [],
